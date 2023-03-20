@@ -6,7 +6,6 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 
-
 function Header() {
   return (
     <div>
