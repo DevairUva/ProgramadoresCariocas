@@ -48,3 +48,17 @@
   white-space: nowrap;
   -webkit-overflow-scrolling: touch;
 }
+
+.textColor{
+  color: #fff;
+}
+
+.container{
+  color: #fff;
+  background-color: #212529;
+}
+
+
+.containerDiv{
+  background-color: #212529;
+}
