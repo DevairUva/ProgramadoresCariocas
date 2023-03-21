@@ -2,6 +2,7 @@ import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import '../styles/home.css'
 
+<<<<<<< HEAD
 function Home() {
   return (
     <div className='topo'>
@@ -129,6 +130,16 @@ function Home() {
       </div>
 
 
+=======
+
+function Home(){
+  return(
+    <div className='topo'>
+      <img src='././assets/formatura.jpeg'></img>
+      <h1>HOME</h1> 
+      
+      
+>>>>>>> 053674ee7c791961168adc5fe8c4c0e595a57aaf
     </div>
   );
 }

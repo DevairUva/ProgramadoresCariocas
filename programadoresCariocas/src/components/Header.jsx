@@ -40,7 +40,7 @@ function Header() {
               </ul>
             </div>
           </div>
-          <a class="navbar-brand" href="#">Programadores Cariocas</a>
+          <a class="navbar-brand" href="#">INSCREVA-SE</a>
         </div>
       </nav>
     </div>
