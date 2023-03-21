@@ -10,7 +10,6 @@ function App() {
   return (
     <div>
       <Header/>
-      sadasdsad
       <Outlet/>
       <Footer/>
     </div>

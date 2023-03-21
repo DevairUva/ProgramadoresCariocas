@@ -3,8 +3,8 @@ import '../styles/footer.css'
 function Footer() {
   return (
     <div className='containerDiv'>
-      <div class="container py-4">
-        <footer class="py-5">
+      <div class="container fundoFooter py-4">
+        <footer class="py-5 footerW">
           <div class="row">
             <div class="col-6 col-md-2 mb-3">
               <h5>Programa</h5>
@@ -62,7 +62,6 @@ function Footer() {
           </div>
         </footer>
       </div>
-      <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
     </div>
   );
 }

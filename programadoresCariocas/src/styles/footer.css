@@ -49,16 +49,21 @@
   -webkit-overflow-scrolling: touch;
 }
 
+.container{
+  width: 1049px;
+}
+
 .textColor{
   color: #fff;
 }
 
-.container{
+.fundoFooter{
   color: #fff;
-  background-color: #212529;
+  background: none;
 }
-
 
 .containerDiv{
-  background-color: #212529;
+  background-image: url('../assets/calcada.jpg');
+  background-size: 1350px 500px;
 }
+
