@@ -3,7 +3,7 @@ import '../styles/footer.css'
 function Footer() {
   return (
     <div className='containerDiv' id='container-imagem'>
-      <div class="container fundoFooter py-3">
+      <div class="container fundoFooter py-4">
         <footer class="py-5 footerW">
           <div class="row">
             <div class="col-6 col-md-2 mb-3">
