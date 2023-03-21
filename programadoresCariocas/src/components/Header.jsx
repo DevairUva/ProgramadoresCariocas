@@ -5,6 +5,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import Offcanvas from 'react-bootstrap/Offcanvas';
+import { Link } from 'react-router-dom'
 
 function Header() {
   return (
@@ -22,7 +23,8 @@ function Header() {
             <div class="offcanvas-body">
               <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  <Link to='/' class="nav-link active">Home</Link>
+                  {/* <a class="nav-link active" aria-current="page" href="#">Home</a> */}
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#">Link</a>
@@ -40,7 +42,8 @@ function Header() {
               </ul>
             </div>
           </div>
-          <a class="navbar-brand" href="#">INSCREVA-SE</a>
+          {/* <a class="navbar-brand" href="/home">Inscreva-se</a> */}
+          <Link to='/pesquisa' class="navbar-brand">INSCREVA-SE</Link>
         </div>
       </nav>
     </div>
