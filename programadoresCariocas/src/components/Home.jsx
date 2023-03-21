@@ -2,6 +2,7 @@ import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import '../styles/home.css'
 
+
 function Home(){
   return(
     <div className='topo'>
