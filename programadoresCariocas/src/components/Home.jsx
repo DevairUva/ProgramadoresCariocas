@@ -5,7 +5,10 @@ import '../styles/home.css'
 function Home(){
   return(
     <div className='topo'>
-      <h1>HOME</h1> <img src='../../assets/formatura.jpeg'></img>
+      <img src='../../assets/formatura.jpeg'></img>
+      <h1>HOME</h1> 
+      
+      
     </div>
   );
 }
